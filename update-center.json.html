@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv='Content-Type' content='text/html;charset=UTF-8' /></head><body><script>window.onload = function () { window.parent.postMessage(JSON.stringify(
+{
+  "id": "jnj-update-center",
+  "plugins":   {
+    "publish-over-ssh":     {
+      "buildDate": "Feb 04, 2017",
+      "compatibleSinceVersion": "0.3",
+      "dependencies": [],
+      "developers": [      {
+        "developerId": "bap",
+        "email": "bap-jenkins@BapIT.co.uk",
+        "name": "Bap"
+      }],
+      "excerpt": "Send build artifacts over SSH",
+      "gav": "org.jenkins-ci.plugins:publish-over-ssh:1.17",
+      "labels":       [
+        "upload",
+        "builder"
+      ],
+      "name": "publish-over-ssh",
+      "releaseTimestamp": "2017-02-04T10:12:00.00Z",
+      "requiredCore": "1.580.1",
+      "scm": "github.com",
+      "sha1": "1lXjMgjP8DJ10vciFr8E7KaUEJU=",
+      "title": "Publish Over SSH",
+      "url": "https://artifactrepo-dev.jnj.com/artifactory/taab-maven-snapshot/publish-over-ssh.hpi",
+      "version": "1.17",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Publish+Over+SSH+Plugin"
+    },
+    "sonar":     {
+      "buildDate": "Mar 23, 2017",
+      "dependencies":       [
+                {
+          "name": "maven-plugin",
+          "optional": true,
+          "version": "2.14"
+        },
+                {
+          "name": "workflow-cps",
+          "optional": true,
+          "version": "2.25"
+        },
+                {
+          "name": "configurationslicing",
+          "optional": true,
+          "version": "1.40"
+        },
+                {
+          "name": "jquery",
+          "optional": false,
+          "version": "1.11.2-0"
+        }
+      ],
+      "developers":       [
+                {
+          "developerId": "godin",
+          "email": "mandrikov@gmail.com",
+          "name": "Evgeny Mandrikov"
+        },
+                {
+          "developerId": "sbrandhof",
+          "email": "simon.brandhof@gmail.com",
+          "name": "Simon Brandhof"
+        },
+                {
+          "developerId": "dgageot",
+          "email": "david@gageot.net",
+          "name": "David Gageot"
+        },
+                {
+          "developerId": "henryju",
+          "email": "henryju@yahoo.fr",
+          "name": "Julien Henry"
+        }
+      ],
+      "excerpt": "",
+      "gav": "org.jenkins-ci.plugins:sonar:2.6.1",
+      "labels":       [
+        "external",
+        "report"
+      ],
+      "name": "sonar",
+      "releaseTimestamp": "2017-03-23T14:38:48.00Z",
+      "requiredCore": "2.32.2",
+      "scm": "github.com",
+      "sha1": "Xe2k+sgA4kn2NmbrecCXnXS779I=",
+      "title": "SonarQube Scanner for Jenkins",
+      "url": "https://artifactrepo-dev.jnj.com/artifactory/taab-maven-snapshot/sonar.hpi",
+      "version": "2.6.1",
+      "wiki": "http://redirect.sonarsource.com/plugins/jenkins.html"
+    },
+    "ssh":     {
+      "buildDate": "Jul 07, 2017",
+      "compatibleSinceVersion": "2.5",
+      "dependencies":       [
+                {
+          "name": "ssh-credentials",
+          "optional": false,
+          "version": "1.9"
+        },
+                {
+          "name": "jsch",
+          "optional": false,
+          "version": "0.1.54.1"
+        }
+      ],
+      "developers":       [
+                {
+          "developerId": "edmund_wagner",
+          "name": "Edmund Wagner"
+        },
+                {
+          "developerId": "ljader",
+          "name": "Lukasz Jader"
+        }
+      ],
+      "excerpt": "Execute shell scripts on remote host using ssh (pre and post build). Based on the cool scp plugin.",
+      "gav": "org.jenkins-ci.plugins:ssh:2.5",
+      "labels": ["buildwrapper"],
+      "name": "ssh",
+      "releaseTimestamp": "2017-07-08T03:05:28.00Z",
+      "requiredCore": "1.609.3",
+      "scm": "github.com",
+      "sha1": "3lthHXQr0JPWifx0ubCwFScApDU=",
+      "title": "Jenkins SSH plugin",
+      "url": "https://artifactrepo-dev.jnj.com/artifactory/taab-maven-snapshot/ssh.hpi",
+      "version": "2.5",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/SSH+plugin"
+    }
+  },
+  "signature":   {
+    "certificates": ["MIICjDCCAfWgAwIBAgIJALlRdtbwOsYIMA0GCSqGSIb3DQEBCwUAMF8xCzAJBgNVBAYTAnVzMRMwEQYDVQQIDApuZXcgamVyc2V5MRUwEwYDVQQHDAxEZWZhdWx0IENpdHkxDDAKBgNVBAoMA2puajEWMBQGA1UEAwwNYXdzYWxobnZhMTA1OTAeFw0xNzExMjMxNDUzMzhaFw0yMDExMjIxNDUzMzhaMF8xCzAJBgNVBAYTAnVzMRMwEQYDVQQIDApuZXcgamVyc2V5MRUwEwYDVQQHDAxEZWZhdWx0IENpdHkxDDAKBgNVBAoMA2puajEWMBQGA1UEAwwNYXdzYWxobnZhMTA1OTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAv0XWZEf5bbR84KVAYxEIoA2MfQxgrQQlc3K0FF/lMhRrujYAGWesw2StLwxrtKV5HjOdRSWcYn+ocIvW6slmFr5lvNb/wQzySGDynwO/WOW68vnh/XeDqZGLvwJ89OdWPIpxAXtVa5bSw9E76uML52TpssWQ6jzrYgkPArGzcAkCAwEAAaNQME4wHQYDVR0OBBYEFPiI0/J7chQnS9KRxpjauePYh7OsMB8GA1UdIwQYMBaAFPiI0/J7chQnS9KRxpjauePYh7OsMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADgYEAfjHWLaE0A+rpUj/rdWhSE8JfBP9CIJeGHB7rEBU8n+PV2PHoi0/8LR3Ob3bAbJFaNYs6pR5RUdPpmywm6oDFkADVqswOaTADmPIZD6nJIAFadqV4MVnJV6n7OYfsl+5PVK2ONI0Nb6/+arKh11gwvWRCKRNzvxhwaeYE0twsK3A="],
+    "correct_digest": "cPtFw9HwULQgugw04jnRozWTGzs=",
+    "correct_signature": "Ye5LtSWXUEpp/jZQaLh+BRF9i7qNPQpD4WZT5dhGPH3cfFqKQM0s8gt0jxsU5z2yqk5yqvDM5+ef7Sh13SN/TCONXpHjuQKpV5NwVUl34C+J4prPqwUwn0Z3TgD89UQrcpuVuyZECbHDvVwoD4B0NVZkMJSmBYEo70jTO2PRoT4=",
+    "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
+    "signature": "cIm96cgLvKAxvFY9ylN1MF+pShqRH6WUBupgQi9Qx2IZg+CHP3fkrg+TihvfidOT7vpT7epY6UrMgXpmEt7abru4e0IvJrSFU6z7PUuK0sFm0i7UGi0z/p2kQwcgzeeDXU2yStcPRy53A1Ic66GfABg2mGMYZYLVuUKl21U/Bn0="
+  },
+}
+),'*'); };</script></body></html>
