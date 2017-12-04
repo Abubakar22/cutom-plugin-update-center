@@ -135,6 +135,5 @@ updateCenter.post(
     "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
     "signature": "cIm96cgLvKAxvFY9ylN1MF+pShqRH6WUBupgQi9Qx2IZg+CHP3fkrg+TihvfidOT7vpT7epY6UrMgXpmEt7abru4e0IvJrSFU6z7PUuK0sFm0i7UGi0z/p2kQwcgzeeDXU2yStcPRy53A1Ic66GfABg2mGMYZYLVuUKl21U/Bn0="
   },
-  "updateCenterVersion": "1"
 }
 );
